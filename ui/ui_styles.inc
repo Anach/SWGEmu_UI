@@ -9542,8 +9542,6 @@
 				startdance='/styles.icon.music.popular'
 				startdance+basic='/styles.icon.music.inept'
 				startdance+basic2='/styles.icon.music.inept'
-				startdance+breakdance='/styles.icon.music.popular'
-				startdance+breakdance2='/styles.icon.music.popular'
 				startdance+exotic='/styles.icon.music.exotic'
 				startdance+exotic2='/styles.icon.music.exotic'
 				startdance+exotic3='/styles.icon.music.exotic'
@@ -9560,19 +9558,15 @@
 				startdance+popular2='/styles.icon.music.popular'
 				startdance+rhythmic='/styles.icon.music.rhythmic'
 				startdance+rhythmic2='/styles.icon.music.rhythmic'
-				startdance+tumble='/styles.icon.music.popular'
-				startdance+tumble2='/styles.icon.music.popular'
 				startmusic='/styles.icon.music.ballad'
 				startmusic+ballad='/styles.icon.music.ballad'
 				startmusic+ceremonial='/styles.icon.music.ceremonial'
 				startmusic+folk='/styles.icon.music.folk'
-				startmusic+funk='/styles.icon.music.rock'
 				startmusic+jazz='/styles.icon.music.jazz'
 				startmusic+rock='/styles.icon.music.rock'
 				startmusic+starwars1='/styles.icon.music.ceremonial'
 				startmusic+starwars2='/styles.icon.music.ceremonial'
 				startmusic+starwars3='/styles.icon.music.ceremonial'
-				startmusic+starwars4='/styles.icon.music.ceremonial'
 				startmusic+virtuoso='/styles.icon.music.virtuoso'
 				startmusic+waltz='/styles.icon.music.waltz'
 				stopdance='/styles.icon.music.popular'
@@ -34064,6 +34058,7 @@
 				triangleOn='#48F200'
 				zoneback='#ffffff'
 			/>
+			<include>ui_palette_ground.inc</include>
 		</Namespace>
 		<Namespace
 			Name='Pie'
@@ -53653,6 +53648,7 @@
 					titleText='#62BCFF'
 					zoneback='#010A58'
 				/>
+				<include>ui_palette_space.inc</include>
 			</Namespace>
 			<Namespace
 				Name='Pie'
@@ -53664,7 +53660,7 @@
 						ImageAutoAngle='false'
 						ImageSegmentAngle='0.20'
 						ImageStyle='c'
-						ImageUvs='c0.00,0.00;0.00,0.00;0.00,0.00;0.00,0.00'
+						ImageUvs='c0.20,1.00;0.19,0.94;0.21,0.94;0.20,1.00'
 						Name='style'
 					/>
 					<ImageStyle

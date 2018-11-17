@@ -21,7 +21,7 @@
 				buttonPaneNext='cornerTL.buttonPaneNext'
 				buttonPanePrev='cornerTL.buttonPanePrev'
 				iconFlashColor='contrast1'
-				IconMargin='1,2,2,2'
+				iconmargin='1,2,2,2'
 				Name='CodeData'
 				sampleItemButton='sampleItemButton'
 				sampleItemPage='sampleItemPage'
@@ -29,7 +29,7 @@
 				tabs='tabs'
 				textPane='cornerTL.textPane'
 				volumeKeyBindings='volumeKeyBindings'
-				VolumePage='volume'
+				volumepage='volume'
 			/>
 			<TabbedPane
 				ActiveTab='0'
@@ -49,20 +49,20 @@
 			</TabbedPane>
 			<DataSource
 				Name='TabData'
-				Size='128,64'
+				size='128,64'
 			>
 				<Data
-					ContextCapable='true'
+					contextcapable='true'
 					Name='Tools'
-					Size='128,64'
+					size='128,64'
 				/>
 				<Data
 					Name='Combat'
-					Size='128,64'
+					size='128,64'
 				/>
 				<Data
 					Name='Social'
-					Size='128,64'
+					size='128,64'
 				/>
 			</DataSource>
 			<Page
@@ -175,7 +175,7 @@
 			>
 				<Text
 					BackgroundOpacity='0.90'
-					Font='bold_13'
+					Font='/Fonts.verdana_bold_13'
 					LocalText='1'
 					Location='2,3'
 					Margin='0,0,0,1'
@@ -641,7 +641,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='2,0'
@@ -662,7 +662,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='34,0'
@@ -683,7 +683,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='66,0'
@@ -704,7 +704,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='98,0'
@@ -739,7 +739,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='162,0'
@@ -760,7 +760,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='194,0'
@@ -781,7 +781,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='226,0'
@@ -802,7 +802,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='258,0'
@@ -837,7 +837,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='322,0'
@@ -858,7 +858,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='354,0'
@@ -879,7 +879,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='386,0'
@@ -900,7 +900,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='bold_12'
+					Font='/Fonts.verdana_bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='418,0'

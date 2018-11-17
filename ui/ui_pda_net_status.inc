@@ -2,7 +2,7 @@
 			BackgroundOpacity='1.00'
 			BackgroundTint='#00D6FB'
 			Location='897,588'
-			MaximumSize='16384,64'
+			MaximumSize='140,64'
 			MinimumSize='140,64'
 			Name='netStatus'
 			PackLocation='fff,fff'
@@ -37,7 +37,7 @@
 				>
 					<Text
 						Font='bold_12'
-						LocalText='ping (ms):'
+						LocalText='Ping (ms):'
 						MaxLines='1'
 						Name='label'
 						PackSize='f,a'
@@ -47,7 +47,7 @@
 						TextAlignment='Right'
 						TextAlignmentVertical='Center'
 						TextColor='#96F4FC'
-					>ping (ms):</Text>
+					>Ping (ms):</Text>
 					<Text
 						Font='bold_13'
 						LocalText='35000'
@@ -72,7 +72,7 @@
 				>
 					<Text
 						Font='bold_12'
-						LocalText='packet loss:'
+						LocalText='Packet Loss:'
 						MaxLines='1'
 						Name='label'
 						PackSize='f,a'
@@ -82,7 +82,7 @@
 						TextAlignment='Right'
 						TextAlignmentVertical='Center'
 						TextColor='#96F4FC'
-					>packet loss:</Text>
+					>Packet Loss:</Text>
 					<Text
 						Font='bold_13'
 						LocalText='88%'
@@ -107,7 +107,7 @@
 				>
 					<Text
 						Font='bold_12'
-						LocalText='bandwidth in:'
+						LocalText='Bandwidth In:'
 						MaxLines='1'
 						Name='label'
 						PackSize='f,a'
@@ -117,7 +117,7 @@
 						TextAlignment='Right'
 						TextAlignmentVertical='Center'
 						TextColor='#96F4FC'
-					>bandwidth in:</Text>
+					>Bandwidth: </Text>
 					<Text
 						Font='bold_13'
 						LocalText='0.0/0.0'
@@ -142,7 +142,7 @@
 				>
 					<Text
 						Font='bold_12'
-						LocalText='fps:'
+						LocalText='FPS:'
 						MaxLines='1'
 						Name='label'
 						PackSize='f,a'
@@ -152,7 +152,7 @@
 						TextAlignment='Right'
 						TextAlignmentVertical='Center'
 						TextColor='#96F4FC'
-					>fps:</Text>
+					>FPS: </Text>
 					<Text
 						Font='bold_13'
 						LocalText='500'
