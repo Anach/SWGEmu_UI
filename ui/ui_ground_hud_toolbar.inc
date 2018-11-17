@@ -21,7 +21,7 @@
 				buttonPaneNext='cornerTL.buttonPaneNext'
 				buttonPanePrev='cornerTL.buttonPanePrev'
 				iconFlashColor='contrast1'
-				iconmargin='1,2,2,2'
+				IconMargin='1,2,2,2'
 				Name='CodeData'
 				sampleItemButton='sampleItemButton'
 				sampleItemPage='sampleItemPage'
@@ -29,7 +29,7 @@
 				tabs='tabs'
 				textPane='cornerTL.textPane'
 				volumeKeyBindings='volumeKeyBindings'
-				volumepage='volume'
+				VolumePage='volume'
 			/>
 			<TabbedPane
 				ActiveTab='0'
@@ -49,20 +49,20 @@
 			</TabbedPane>
 			<DataSource
 				Name='TabData'
-				size='128,64'
+				Size='128,64'
 			>
 				<Data
-					contextcapable='true'
+					ContextCapable='true'
 					Name='Tools'
-					size='128,64'
+					Size='128,64'
 				/>
 				<Data
 					Name='Combat'
-					size='128,64'
+					Size='128,64'
 				/>
 				<Data
 					Name='Social'
-					size='128,64'
+					Size='128,64'
 				/>
 			</DataSource>
 			<Page
