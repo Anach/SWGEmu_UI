@@ -1,7 +1,7 @@
 		<Page
 			BackgroundColor='#FFFFFF'
-			Location='870,49'
-			MinimumSize='136,68'
+			Location='870,53'
+			MinimumSize='136,70'
 			Name='CombatQueue'
 			OnDisableEffector='/Effectors.FadeThreeQuarter'
 			OnEnableEffector='/Effectors.FadeFull'
@@ -30,7 +30,7 @@
 				Dragable='true'
 				DragType='uicommand'
 				LocalText='[@combat_queue_clear]'
-				Location='11,137'
+				Location='11,295'
 				MinimumSize='0,19'
 				Name='ClearButton'
 				PackLocation='nfn,fff'
@@ -43,7 +43,7 @@
 				Enabled='false'
 				Font='bold_12'
 				LocalText='xxx Enemy Name'
-				Location='5,111'
+				Location='5,269'
 				Name='NameText'
 				PackLocation='fff,fff'
 				PackSize='a,f'
@@ -60,7 +60,7 @@
 				Dragable='true'
 				DragType='uicommand'
 				LocalText='[@combat_peace]'
-				Location='85,137'
+				Location='85,295'
 				MinimumSize='0,19'
 				Name='PeaceAttackButton'
 				PackLocation='fff,fff'
@@ -121,8 +121,8 @@
 				Name='QueuePage'
 				PackSize='a,a'
 				RStyleDefault='/Styles.window.chat.tiny_frame.rs_default'
-				ScrollExtent='136,107'
-				Size='136,107'
+				ScrollExtent='136,265'
+				Size='136,265'
 			>
 				<Page
 					Dragable='true'
@@ -247,8 +247,8 @@
 				Opacity='0.70'
 				PackLocation='fff,nfn'
 				PackSize='f,a'
-				ScrollExtent='12,107'
-				Size='12,107'
+				ScrollExtent='12,265'
+				Size='12,265'
 				Style='/Styles.scrollbar.default.vHud.style'
 			>
 			</Scrollbar>
