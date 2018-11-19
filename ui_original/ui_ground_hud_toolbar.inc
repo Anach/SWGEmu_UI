@@ -175,7 +175,7 @@
 			>
 				<Text
 					BackgroundOpacity='0.90'
-					Font='/Fonts.verdana_bold_13'
+					Font='bold_13'
 					LocalText='1'
 					Location='2,3'
 					Margin='0,0,0,1'
@@ -641,7 +641,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='2,0'
@@ -662,7 +662,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='34,0'
@@ -683,7 +683,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='66,0'
@@ -704,7 +704,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='98,0'
@@ -739,7 +739,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='162,0'
@@ -760,7 +760,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='194,0'
@@ -781,7 +781,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='226,0'
@@ -802,7 +802,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='258,0'
@@ -837,7 +837,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='322,0'
@@ -858,7 +858,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='354,0'
@@ -879,7 +879,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='386,0'
@@ -900,7 +900,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					ColorSelection='#FFFFFF'
-					Font='/Fonts.verdana_bold_12'
+					Font='bold_12'
 					GetsInput='true'
 					LocalText='F2'
 					Location='418,0'
