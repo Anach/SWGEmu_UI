@@ -2,13 +2,13 @@
 			BackgroundColor='#0000FF'
 			Location='1,0'
 			MaximumSize='16384,64'
-			MinimumSize='255,64'
+			MinimumSize='260,64'
 			Name='MFDStatus'
 			OnEnableEffector='/Effectors.Fadefull'
 			PackLocation='nfn,nfn'
 			PackSize='p,f'
-			ScrollExtent='255,64'
-			Size='255,64'
+			ScrollExtent='260,64'
+			Size='260,64'
 			TextOpacityRelativeApply='true'
 			TextOpacityRelativeMin='0.80'
 			UserMovable='true'
@@ -27,7 +27,7 @@
 			<Page
 				BackgroundOpacity='1.00'
 				GetsInput='false'
-				Location='228,-1'
+				Location='233,-1'
 				Name='corner_TL'
 				OnDisableEffector='/effectors.opacity.slow.fadehalf'
 				OnEnableEffector='/effectors.opacity.fast.fadefull'
@@ -41,36 +41,36 @@
 			<Composite
 				Alignment='Back'
 				Location='38,14'
-				MinimumSize='0,50'
+				MinimumSize='220,48'
 				Name='composite'
 				OpacityRelativeMin='1.00'
 				Orientation='Horizontal'
 				PackLocation='nfn,cpc'
 				PackSize='a,a'
-				ScrollExtent='230,50'
-				Size='230,50'
+				ScrollExtent='220,48'
+				Size='220,48'
 				SpacingType='Fill'
 			>
 				<Composite
 					BackgroundColor='#003366'
 					FillRemainder='false'
-					MinimumSize='115,48'
+					MinimumSize='100,48'
 					Name='ham'
 					OpacityRelativeMin='1.00'
 					PackLocation='nfn,nfn'
 					PackSize='f,a'
-					ScrollExtent='115,48'
-					Size='115,48'
+					ScrollExtent='100,48'
+					Size='100,48'
 					SpacingType='Fill'
 				>
 					<Page
-						MinimumSize='115,10'
+						MinimumSize='100,10'
 						Name='h'
 						Orientation='horizontal'
 						PackLocation='nfn,nfn'
 						PackSize='a'
-						ScrollExtent='115,10'
-						Size='115,10'
+						ScrollExtent='100,10'
+						Size='100,10'
 					>
 						<Data
 							current='normalmax.inner.current'
@@ -86,16 +86,16 @@
 							Name='NormalMax'
 							PackSize='p,1'
 							RStyleDefault='/Styles.mfd.statusbars_small.RecentCurrent.style'
-							ScrollExtent='115,10'
-							Size='115,10'
+							ScrollExtent='100,10'
+							Size='100,10'
 						>
 							<Page
 								BackgroundColor='#00FF00'
 								Name='inner'
 								PackLocation='nfn,cfc'
 								PackSize='a,a'
-								ScrollExtent='115,10'
-								Size='115,10'
+								ScrollExtent='100,10'
+								Size='100,10'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -127,8 +127,8 @@
 									Name='RecentMax'
 									PackSize='1,p'
 									RStyleDefault='/Styles.mfd.statusbars_small.RecentCurrent.style'
-									ScrollExtent='115,10'
-									Size='115,10'
+									ScrollExtent='100,10'
+									Size='100,10'
 									Visible='false'
 								/>
 								<Page
@@ -146,15 +146,15 @@
 					</Page>
 					<Page
 						Location='0,10'
-						MinimumSize='115,10'
+						MinimumSize='100,10'
 						Name='a'
 						OnHide='parent.H.packSize=a,0.5'
 						OnShow='parent.H.packSize=a'
 						Orientation='horizontal'
 						PackLocation='nfn,nfn'
 						PackSize='a'
-						ScrollExtent='115,10'
-						Size='115,10'
+						ScrollExtent='100,10'
+						Size='100,10'
 					>
 						<Data
 							current='normalmax.inner.current'
@@ -170,16 +170,16 @@
 							Name='NormalMax'
 							PackSize='p,1'
 							RStyleDefault='/Styles.mfd.statusbars_small.RecentCurrent.style'
-							ScrollExtent='115,10'
-							Size='115,10'
+							ScrollExtent='100,10'
+							Size='100,10'
 						>
 							<Page
 								BackgroundColor='#00FF00'
 								Name='inner'
 								PackLocation='nfn,cfc'
 								PackSize='a,a'
-								ScrollExtent='115,10'
-								Size='115,10'
+								ScrollExtent='100,10'
+								Size='100,10'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -211,8 +211,8 @@
 									Name='RecentMax'
 									PackSize='1,p'
 									RStyleDefault='/Styles.mfd.statusbars_small.RecentCurrent.style'
-									ScrollExtent='115,10'
-									Size='115,10'
+									ScrollExtent='100,10'
+									Size='100,10'
 									Visible='false'
 								/>
 								<Page
@@ -230,13 +230,13 @@
 					</Page>
 					<Page
 						Location='0,24'
-						MinimumSize='115,10'
+						MinimumSize='100,10'
 						Name='m'
 						Orientation='horizontal'
 						PackLocation='nfn,nfn'
 						PackSize='a'
-						ScrollExtent='115,10'
-						Size='115,10'
+						ScrollExtent='100,10'
+						Size='100,10'
 					>
 						<Data
 							current='normalmax.inner.current'
@@ -252,16 +252,16 @@
 							Name='NormalMax'
 							PackSize='p,1'
 							RStyleDefault='/Styles.mfd.statusbars_small.RecentCurrent.style'
-							ScrollExtent='115,10'
-							Size='115,10'
+							ScrollExtent='100,10'
+							Size='100,10'
 						>
 							<Page
 								BackgroundColor='#00FF00'
 								Name='inner'
 								PackLocation='nfn,cfc'
 								PackSize='a,a'
-								ScrollExtent='115,10'
-								Size='115,10'
+								ScrollExtent='100,10'
+								Size='100,10'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -293,8 +293,8 @@
 									Name='RecentMax'
 									PackSize='1,p'
 									RStyleDefault='/Styles.mfd.statusbars_small.RecentCurrent.style'
-									ScrollExtent='115,10'
-									Size='115,10'
+									ScrollExtent='100,10'
+									Size='100,10'
 									Visible='false'
 								/>
 								<Page
@@ -312,13 +312,13 @@
 					</Page>
 					<Page
 						Location='0,36'
-						MinimumSize='115,10'
+						MinimumSize='100,10'
 						Name='f'
 						Orientation='horizontal'
 						PackLocation='nfn,nfn'
 						PackSize='a'
-						ScrollExtent='115,10'
-						Size='115,10'
+						ScrollExtent='100,10'
+						Size='100,10'
 					>
 						<Data
 							current='normalmax.inner.current'
@@ -332,16 +332,16 @@
 							Name='NormalMax'
 							PackSize='p,1'
 							RStyleDefault='/Styles.mfd.statusbars_small.RecentCurrent.style'
-							ScrollExtent='115,10'
-							Size='115,10'
+							ScrollExtent='100,10'
+							Size='100,10'
 						>
 							<Page
 								BackgroundColor='#00FF00'
 								Name='inner'
 								PackLocation='nfn,cfc'
 								PackSize='a,a'
-								ScrollExtent='115,10'
-								Size='115,10'
+								ScrollExtent='100,10'
+								Size='100,10'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -370,21 +370,21 @@
 				</Composite>
 				<VolumePage
 					CellAlignmentH='left'
-					CellCount='4,2'
-					CellPadding='1,1'
+					CellCount='5,2'
+					CellPadding='0,0'
 					CellSelectable='false'
 					CellSelectionOverlayOpacity='1.00'
 					CellSize='20,20'
 					GetsInput='false'
-					Location='80,0'
-					MaximumSize='100,44'
-					MinimumScrollExtent='100,44'
+					Location='160,0'
+					MaximumSize='100,48'
+					MinimumScrollExtent='100,48'
 					Name='vs'
 					OpacityRelativeMin='1.00'
 					PackLocation='fff,cfc'
 					PackSize='f,f'
-					ScrollExtent='100,44'
-					Size='100,44'
+					ScrollExtent='100,48'
+					Size='100,48'
 				>
 					<Image
 						Color='#54E4FE'
@@ -474,12 +474,12 @@
 				OnEnableEffector='/effectors.opacity.fast.fadefull'
 				PackLocation='nfn,fff'
 				PackSize='f,f'
-				ScrollExtent='13,10'
-				Size='13,10'
+				ScrollExtent='13,6'
+				Size='13,6'
 			>
 				<Button
 					BackgroundColor='#FFFFFF'
-					BackgroundOpacity='1.00'
+					BackgroundOpacity='0.00'
 					Dragable='true'
 					DragType='command'
 					Icon='/Styles.Icon.Misc.expand'
@@ -490,8 +490,8 @@
 					OnPress='parent.expand.visible=true'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					ScrollExtent='13,10'
-					Size='13,10'
+					ScrollExtent='13,6'
+					Size='13,6'
 					Style='style'
 					TextColor='#000000'
 				></Button>
@@ -507,11 +507,11 @@
 					IconStretch='true'
 					Name='expand'
 					OnPress='parent.collapse.visible=true'
-					visible='true'
+					visible='false'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					ScrollExtent='13,10'
-					Size='13,10'
+					ScrollExtent='13,6'
+					Size='13,6'
 					Style='style'
 					TextColor='#000000'
 				></Button>
@@ -519,14 +519,14 @@
 			<Text
 				Font='bold_12'
 				LocalText='xxx target name'
-				Location='39,1'
+				Location='38,1'
 				MaxLines='1'
 				Name='textName'
 				PackLocation='nfn,nfn'
 				PackSize='a,f'
 				PalText='text1'
-				ScrollExtent='215,14'
-				Size='215,14'
+				ScrollExtent='90,14'
+				Size='90,14'
 				TextAlignmentVertical='Center'
 				TextColor='#96F4FC'
 			>xxx target name</Text>
@@ -547,13 +547,13 @@
 				Visible='false'
 			/>
 			<Page
-				MaximumSize='255,56'
+				MaximumSize='36,56'
 				Name='vsp'
 				PackLocation='nfn,fff'
 				PackSize='a,a'
 				RStyleDefault='rs_default'
-				ScrollExtent='255,56'
-				Size='255,56'
+				ScrollExtent='36,56'
+				Size='36,56'
 			>
 				<Page
 					BackgroundOpacity='1.00'
@@ -561,8 +561,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='f,a'
 					RStyleDefault='/Styles.window.mfd.mfd3.rs_default'
-					ScrollExtent='35,56'
-					Size='35,56'
+					ScrollExtent='36,56'
+					Size='36,56'
 				>
 					<Image
 						BackgroundColor='#42FF00'
@@ -589,7 +589,7 @@
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
 				RStyleDefault='/Styles.window.mfd.mfd_back.rs_default'
-				ScrollExtent='225,64'
-				Size='225,64'
+				ScrollExtent='232,64'
+				Size='232,64'
 			/>
 		</Page>
